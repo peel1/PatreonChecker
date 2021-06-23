@@ -7,7 +7,7 @@ PatreonChecker will check username/email:password to see if the account credenti
 Proxys are mandatory because Patreon will simply block you otherwise so the program would be useless without them.
 ## Proxys
 ### Proxys must be formated IP:Port.
-### recomended proxys 500-1000 
+### recomended proxys 100-250
 ### max proxys: 10k
 
 ### Best cheap proxy provider + free proxys: https://bit.ly/2DPFwHI
