@@ -39,7 +39,6 @@ def Request():
     proxies = {
         "https": "http://{}:{}".format(ip1, port1)
     }
-    print(proxies)
     headers = {
         'authority': 'www.patreon.com',
         'accept': '*/*',
