@@ -17,7 +17,7 @@ Linux + Windows:
 ```
   git clone https://github.com/peel1/PatreonChecker
   
-  cd Insta-Checker
+  cd PatreonChecker
   
   pip install -r requirements.txt
   
